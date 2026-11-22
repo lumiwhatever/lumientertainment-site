@@ -96,9 +96,7 @@ The first submission sends a confirmation email to that address. The owner has t
 
 ## Coverage line
 
-Use this sentence until the owner confirms or changes it:
-
-Based in Naples, FL. Serving Southwest Florida and beyond.
+Based in Naples, FL. Available nationwide.
 
 ## Brand
 
