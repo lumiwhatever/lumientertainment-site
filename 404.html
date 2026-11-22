@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page not found | DJ Lumi</title>
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#18181B">
+  <style>
+    :root { color-scheme: light; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      background: #f6f6f4;
+      color: #18181b;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      line-height: 1.5;
+    }
+    header, main, footer { padding: 1.25rem; }
+    header { background: #18181b; color: #f6f6f4; box-shadow: inset 0 3px 0 #b51217; }
+    a { color: #8c0e12; }
+    header a { color: #f6f6f4; text-decoration: none; font-weight: 700; letter-spacing: 0.08em; }
+    h1 { font-size: clamp(2rem, 6vw, 3.2rem); line-height: 1.1; letter-spacing: -0.02em; max-width: 12ch; }
+    p { max-width: 36rem; }
+    nav { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1.25rem; }
+    nav a {
+      display: inline-flex;
+      align-items: center;
+      min-height: 3rem;
+      padding: 0.7rem 1rem;
+      background: #b51217;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: 700;
+    }
+    footer { margin-top: auto; background: #18181b; color: #c8c6c0; }
+    footer a { color: #f6f6f4; }
+  </style>
+</head>
+<body>
+  <header><a id="brand" href="https://www.lumientertainment.net/">LUMI</a></header>
+  <main>
+    <h1>This page isn’t here.</h1>
+    <p>The link may be out of date. Head home, or book the date.</p>
+    <nav>
+      <a id="gohome" href="https://www.lumientertainment.net/">Home</a>
+      <a id="goevents" href="https://www.lumientertainment.net/weddings/">Events</a>
+      <a id="gobook" href="https://www.lumientertainment.net/booklumi/">Book Lumi</a>
+    </nav>
+  </main>
+  <footer>
+    <p>Based in Naples, FL. Serving Southwest Florida and beyond.</p>
+    <p><a href="tel:+12396876355">(239) 687-6355</a> · <a href="mailto:lumi@lumientertainment.net">lumi@lumientertainment.net</a></p>
+  </footer>
+  <script>
+    (function () {
+      var base = "/";
+      if (/\.github\.io$/.test(location.hostname)) base = "/lumientertainment-site/";
+      document.getElementById("brand").href = base;
+      document.getElementById("gohome").href = base;
+      document.getElementById("goevents").href = base + "weddings/";
+      document.getElementById("gobook").href = base + "booklumi/";
+    })();
+  </script>
+</body>
+</html>
