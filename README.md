@@ -104,6 +104,6 @@ Based in Naples, FL. Serving Southwest Florida and beyond.
 
 - Near-black `#18181B`, warm off-white `#F6F6F4`, crimson `#B51217`
 - Montserrat for headings, Inter for body (files in `fonts/`)
-- Phone `(239) 687-6355`, email `lumi@lumientertainment.net`
+- Phone `(239) 687-6355` in the footer and on the Book Lumi page only. Email `lumi@lumientertainment.net`
 - Instagram `https://instagram.com/djlumiofficial`
 - TikTok `https://www.tiktok.com/@lumiwhatever`
